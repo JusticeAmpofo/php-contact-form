@@ -1,0 +1,289 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+body
+{
+	font-size: 15pt;
+	line-height: normal;
+	font-family:'Open Sans', sans-serif;
+	background:#211E1E;;
+}
+
+h1{font-size: 200%;}
+h2{font-size: 150%;}
+h3{font-size: 100%;}
+
+h1,h2,h3,p
+{
+	margin-bottom: 20px;
+}
+
+	#header_container
+	{
+		/*width:100%;*/
+		/*border:1px solid red;*/
+		padding:20px;
+		color:white;
+		background-color: #0A2990;
+	}
+
+		header
+		{
+			width:920px;
+			margin:0 auto 0 auto;
+		}
+
+			#header_container header h1
+			{
+				text-align: center;
+				text-transform: uppercase;
+			}
+
+			#header_container #logo
+			{
+				background: url("../images/logo.png");
+				width:200px;
+				height:134px;
+				display:block;
+				margin: 20px auto;
+			}
+
+				#header_container header h1 span
+				{
+					display:none;
+				}
+
+	#wrapper
+	{
+		width:820px;
+		margin:0 auto 20px auto;
+		padding:20px;
+		/*border:1px solid blue;*/
+		color: white;
+	}
+
+	#wrapper:after
+	{
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+		main
+		{
+			float: left;
+			width: 100%;
+		}
+
+			main h1
+			{
+				text-transform: uppercase;
+				text-align: center;
+			}
+
+			main h2
+			{
+				text-align: center;
+			}
+			
+			p.success
+			{
+				text-align:center;
+				color:#3CF326;	
+			}
+			
+			p.error
+			{
+				text-align:center;
+				color:#F43B3E;	
+			}
+
+					main #register fieldset
+					{
+						/*border:solid red 1px;*/
+						border-bottom: solid 10px #0A2990;
+						margin-bottom: 20px;
+					}
+
+					main #register fieldset.last
+					{
+						border:none;
+					}
+
+					#register legend
+					{
+						margin-bottom: 20px;
+						font-weight: bold;
+						font-size:120%;
+					}
+
+						#register ul
+						{
+							float: left;
+							width: 100%;
+						}
+
+
+						#register :focus
+						{
+							outline: none;
+						}
+
+							#register ul li
+							{
+								float: left;
+								margin-bottom: 25px;
+								width:48%;
+								/*border:1px solid green;*/
+							}
+
+							#register ul li.right_side
+							{
+								float: right;
+							}
+
+
+							#register ul li.full_width
+							{
+								width: 100%;	
+							}
+
+							#register ul li.spread label
+							{
+								font-size: 100%;
+								margin-right: 50px;
+								/*border:1px solid red;*/
+							}
+/*
+								#register ul li select option
+								{
+									color:#0A2990;
+								}
+*/
+							#register ul li input[type=text],
+							#register ul li input[type=email],
+							#register ul li input[type=tel],
+							#register ul li select
+							{
+								font-size: 100%;
+								border: 2px solid #0A2990;
+								width:373.6px;
+								padding:8px;
+							}
+							
+								#register ul li input[type=text].error,
+								#register ul li input[type=email].error
+								{
+									border: 2px solid red;	
+								}
+							
+							#register ul li select
+							{
+								appearance:icon;
+								-webkit-appearance: icon;
+							    -moz-appearance: icon;
+							   /* color: red;*/
+							   font-size:90%;
+							}
+
+							#register ul li.extend input[type=text]
+							{
+								width:800px;
+							}
+
+							#register ul li.third 
+							{
+								width:30%;
+							}
+
+								#register ul li.third input[type=text],
+								#register ul li.third select
+								{
+									width: 226px;
+								}
+
+								#register ul li.middle
+								{
+									margin-right:40px;
+									margin-left:36px;
+								}
+
+									#register ul li.textbox label
+									{
+										float: left;
+										width:100%;
+										margin-bottom: 20px;
+										font-size:100%;
+									}
+
+									#register ul li textarea
+									{
+										width:796px;
+										height: 200px;
+										padding:8px;
+										resize: none;
+										font-size: 12pt;
+										font-family: 'Open Sans', sans-serif;
+										border: 2px solid #0A2990;
+									}
+
+								#register ul li.center
+								{
+									text-align: center;
+								}
+
+									#register ul li input[type=submit]
+									{
+										font-size: 30pt;
+										width: auto;
+										padding: 7px;
+										background:#fff;
+										color: #000;
+										border:none;	
+									}
+
+									#register ul li input[type=submit]:hover
+									{
+										background:#0A2990;
+										color:#fff;
+									}
+
+
+							::-webkit-input-placeholder 
+							{
+	   							color: #0A2990;
+							}
+
+							:-moz-placeholder 
+							{ /* Firefox 18- */
+							   color: #0A2990;  
+							}
+
+							::-moz-placeholder 
+							{  /* Firefox 19+ */
+							   color: #0A2990;  
+							}
+
+							:-ms-input-placeholder 
+							{  
+							   color: #0A2990;  
+							}
+
+	#footer_container
+	{
+		/*border:1px solid red;*/
+		padding:20px;
+		color:#fff;
+		background-color: #0A2990;
+	}
+
+		footer
+		{
+			width:920px;
+			margin:0 auto 0 auto;
+		}
+
+			footer p
+			{
+				text-align: center;
+			}

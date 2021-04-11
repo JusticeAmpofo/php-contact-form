@@ -1,0 +1,197 @@
+@media screen and (min-width: 641px) and (max-width: 978px)
+{
+	/*#wrapper *{border: solid 1px red;}*/
+	body
+	{
+		font-size: 12pt;
+		-webkit-text-size-adjust: none;
+	}
+
+		#header_container
+		{
+			padding:2.5%;
+		}
+
+			header
+			{
+				width:95%;
+			}
+
+
+		#wrapper
+		{
+			width:95%;
+			padding:2.5%;
+			
+		}
+
+					#register fieldset
+					{
+						width:100%;
+					}
+
+							
+
+							#register ul li.third
+							{
+								width: 100%;
+							}
+
+							#register ul li.middle
+							{
+								margin-right:0;
+								margin-left:0px;
+								float:right;
+							}
+
+
+								#register ul li input[type=text],
+								#register ul li input[type=email],
+								#register ul li input[type=tel],
+								#register ul li select
+								{
+									width:90%;
+								}
+
+								#register ul li.extend input[type=text]
+								{
+									width:95%;
+								}
+
+								#register ul li textarea
+								{
+									width:95%;
+									height: 200px;
+									padding:2.5%;
+									resize: none;
+									font-size: 100%;
+									font-family: 'Open Sans', sans-serif;
+								}
+
+									#register ul li input[type=submit]
+									{
+										font-size: 25pt;
+									}
+
+
+
+		#footer_container
+		{
+			padding:2.5%;
+		}
+
+			footer
+			{
+				width: 95%;
+			}
+
+}
+
+@media screen and (max-width: 640px)
+{
+	/*#wrapper *{border: solid 1px blue;}*/
+	body
+	{
+		font-size: 10pt;
+		-webkit-text-size-adjust: none;
+	}
+
+		#header_container
+		{
+			padding:3.5%;
+		}
+
+			header
+			{
+				width:93%;
+			}
+
+		#wrapper
+		{
+			width:93%;
+			padding:3.5%;
+		}
+
+					#register fieldset
+					{
+						width:100%;
+					}
+
+
+							#register ul li
+							{
+								width:100%;
+							}
+
+							#register ul li.third
+							{
+								width: 100%;
+							}
+
+								#register ul li.third input[type=text],
+								#register ul li.third select
+								{
+									width: 50%;
+								}
+
+							#register ul li.middle
+							{
+								margin-right:0;
+								margin-left:0;
+							}
+
+								#register ul li input[type=text],
+								#register ul li input[type=email],
+								#register ul li input[type=tel],
+								#register ul li select
+								{
+									width:95%;
+								}
+
+
+								#register ul li.extend input[type=text]
+								{
+									width:95%;
+								}
+
+								#register ul li.spread label
+								{
+									font-size: 10pt;
+									margin-right: 30px;
+									/*border:1px solid red;*/
+									-webkit-text-size-adjust: none;
+								}
+
+
+								#register ul li textarea
+								{
+									width:97%;
+									height: 200px;
+									padding:1.5%;
+									resize: none;
+									font-size: 100%;
+									font-family: 'Open Sans', sans-serif;
+								}
+
+									#register ul li input[type=submit]
+									{
+										font-size: 20pt;
+									}
+									
+									#register ul li.textbox label
+									{
+										 -webkit-text-size-adjust: none;
+									}
+									
+									
+
+		#footer_container
+		{
+			padding:3.5%;
+		}
+
+			footer
+			{
+				width: 93%;
+			}
+}
